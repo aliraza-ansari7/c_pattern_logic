@@ -4,16 +4,16 @@ int main()
 int i,j;
 for(i=1;i<=5;i++)
 {
+char ch='A';
 	for(j=1;j<=5;j++)
 	{
 	   
 		if(i==3 || j==5)
-		   printf("%d ",i,j);
+		   printf("%c ",ch);
 		
 		else
 		   printf(" ");
-		
-
+		 	
 }
 printf("\n");
 
