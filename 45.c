@@ -5,17 +5,17 @@ int i,j;
 
 for(i=1;i<=8;i++)
 {
-int num=1;
+char ch='A';
 	
 	for(j=1;j<=4;j++)
 	{ 
 	 
 		if(j>=6-i && j<=9-i )
-		   printf("%d",num);
+		   printf("%c",ch);
 
 		else
 		   printf(" ");	
-	num++;
+	ch++;
 }
 
 printf("\n");
@@ -23,4 +23,3 @@ printf("\n");
 
 return 0;
 }
-
