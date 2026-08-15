@@ -3,18 +3,18 @@ int main()
 {
 int i,j;
 
-for(i=1;i<=11;i++)
+for(i=1;i<=9;i++)
 {	
-int num=1;
-	for(j=1;j<=11;j++)
+int num=9;
+	for(j=1;j<=9;j++)
 	{ 
 	 
-		if(j<=i || j<=12-i)
+		if(j<=i || j<=10-i)
 		   printf("%d",num);
 
 		else
 		   printf(" ");
-num++;	
+num--;	
 }
 
 printf("\n");

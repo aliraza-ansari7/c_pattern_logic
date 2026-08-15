@@ -9,7 +9,7 @@ char ch='A';
 	for(j=1;j<=11;j++)
 	{ 
 	 
-		if(j>=i || j>=12-i)
+		if(j<=i || j<=12-i)
 		   printf("%c",ch);
 
 		else
@@ -21,3 +21,4 @@ printf("\n");
 }
 return 0;
 }
+
