@@ -5,16 +5,16 @@ int i,j;
 
 for(i=1;i<=9;i++)
 {	
-int num=1;
+char ch='A';
 	for(j=1;j<=9;j++)
 	{ 
 	 
 		if(j==i || i==5) 
-		   printf("%d",num);
+		   printf("%c",ch);
 
 		else
 		   printf(" ");	
-	  num++;
+	  ch++;
 	}
 
 
@@ -23,5 +23,3 @@ printf("\n");
 
 return 0;
 }
-
-
