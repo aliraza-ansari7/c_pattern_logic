@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main()
 {
@@ -6,7 +5,7 @@ int i,j;
 
 for(i=0;i<=10;i++)
 {	
-char ch='A';
+int num=1;
 	for(j=0;j<=13;j++)
 	{ 
 		if(j<=2+i || j>=1-i)
@@ -20,8 +19,8 @@ char ch='A';
 		
 		if(j<=2+i && j>=i)
 		{
-			printf("%c",ch); 
-                        ch=ch+1;
+			printf("%d",num); 
+                        num=num+1;
 		}
 	}
 
@@ -31,5 +30,3 @@ printf("\n ");
 
 return 0;
 }
-
-
