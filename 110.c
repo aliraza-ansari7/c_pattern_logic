@@ -5,7 +5,7 @@ int i,j;
 
 for(i=0;i<=10;i++)
 {	
-int num=1;
+char ch='A';
 
 	for(j=0;j<=13;j++)
 	{ 
@@ -20,8 +20,8 @@ int num=1;
 		
 		if(j<=2+i && j>=i )
 		{
-			printf("%d",num);
-			num=num+1; 
+			printf("%c",ch);
+			ch=ch+1; 
                         
 		}
 		
