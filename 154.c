@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=1;i<=4;i++)
+{
+int num=8;
+
+	for(j=1;j<=9;j++)
+	{
+	   if(j<=9-i && j>=i)
+		printf("%d",num);
+	
+	   else
+		printf(" ");
+	num--;
+	}
+
+        printf("\n");
+}
+
+
+for(i=1;i<=4;i++)
+{
+int num=8;
+	for(j=1;j<=9;j++)
+	{
+	   if(j>=5-i && j<=4+i)
+		printf("%d",num);
+	
+	   else
+		printf(" ");
+	num--;;
+	}
+
+        printf("\n");
+}
+
+return 0;
+}
