@@ -5,7 +5,7 @@ int i,j;
 
 for(i=1;i<=11;i++)
 {
-char ch='K';
+char ch='Ks';
 
 	for(j=1;j<=11;j++)
 	{
