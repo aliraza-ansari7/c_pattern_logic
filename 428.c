@@ -18,4 +18,4 @@ int main() {
 
     if(flag) printf("Sorted");
     else printf("Not Sorted");
-}
+}	
